@@ -12,7 +12,7 @@ public int[] extractMin(): This method extracts the value of the minimum element
 public int[] getHeap(): This method should return the array represenation of the min-heap; i.e, an array of integers where the element at index 0 contains the value of the root, the elements at indices 2 to d+1 contain the vlaues of the children of the root, and so on.<br><br>
 HeapNode: Each object of this class represents a single node in the heap. The objects of this class store an int value and an int id, where both will get values in the constructor. The id can be used to identify the node when we want to implement the decrease key operation.<br>
 
-## Dijkstra's Algorithm with/without min-heap
+## Dijkstra's Algorithm with/without min-heap Implementation
 public DijkstrasWithHeap (int n, int[][] edges) and public DijkstrasWithoutHeap (int n, int[][] edges): These are the constructors of the classes. n is the number of nodes of the graph, where the nodes are numbered from 1 to n,  and edges is a 2-dimensional array, where each row of it has the form [u, v, w], where<br>
 u: one end-point of the edge,<br>
 v: another end-point of the edge, and<br>
@@ -20,5 +20,8 @@ w: the weight of the edge.<br>
       So the i-th edge of the graph is an edge between edges[i][0] and edges[i][1] and has a weight equal to edges[i][2].<br>
 
 public int[] run(int source): This method runs the Dijkstra's shortest path algorithm from the source vertex and returns an array of integers containing the distances of the nodes from the source vertex; i.e, the i-th element of the returned array is the distance of node i from the source. If a node i is not reachable from the source vertex, then the i-th element of the returned array should be -1.
+
+## Testing
+
 
 
